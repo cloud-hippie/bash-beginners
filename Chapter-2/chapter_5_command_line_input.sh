@@ -18,8 +18,8 @@ echo "The third argument is: $3"
 # echo "The first argument is: $*"
 # echo "The second argument is: $@"
 
-# for ARGUMENT in $@
-# do
-#     echo "The argument is: $ARGUMENT"
-# done
+for ARGUMENT in $@
+do
+    echo "The argument is: $ARGUMENT"
+done
 

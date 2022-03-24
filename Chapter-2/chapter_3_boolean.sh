@@ -3,14 +3,14 @@
 # As we go through sets of values, we may want to figure out if one is a file, Or if theree is anything there at all.
 
 # This is where we can use boolean logic to test the value of a variable.
-# LIST_OF_FILES=$(ls)
-# for FILE in $LIST_OF_FILES ; do
-#     if [ -f $FILE ] ; then
-#         echo "$FILE is a file"
-#     else
-#         echo "$FILE is not a file"
-#     fi
-# done
+LIST_OF_FILES=$(ls)
+for FILE in $LIST_OF_FILES ; do
+    if [ -f $FILE ] ; then
+        echo "$FILE is a file"
+    else
+        echo "$FILE is not a file"
+    fi
+done
 
 # Bash handles things a bit from other languages. 
 # Each command in bash is a statement.

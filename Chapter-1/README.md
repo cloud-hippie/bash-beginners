@@ -43,5 +43,7 @@ Two of the most popular embedded software projects are Android and Raspberry Pi.
 
 Android - mainly mobile operating system developed by Google.
 
-Raspberry Pi - is a small and cheap computer that is used to control a variety of devices.
+Raspberry Pi - is a small and cheap computer that is used to control a variety of devices
+
+
 
